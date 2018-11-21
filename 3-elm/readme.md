@@ -1,11 +1,12 @@
 # Elm
 
 ## Development Setup
-Install the elm dev tools via chocolatey
+```powershell
+# Install the elm dev tools via chocolatey
+choco install elm-platform
+```
 
-    choco install elm-platform
-
-### VS Code 
+### Editor (VS Code)
 
 Install the "elm" extension for VS Code for Elm language support.
 
@@ -23,4 +24,5 @@ Install the "elm" extension for VS Code for Elm language support.
 ```
 
 ## Docs
-[Elm packages](https://package.elm-lang.org/)   
+* [Elm website](https://elm-lang.org)
+* [Elm packages](https://package.elm-lang.org/)   
