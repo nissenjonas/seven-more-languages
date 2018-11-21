@@ -1,4 +1,6 @@
-import Graphics.Element exposing (..)
-import Mouse
+import Browser
+import Html exposing (text)
 
-main = Signal.map show Mouse.position
+-- Program entry point
+main =
+  text "Hello World!"
