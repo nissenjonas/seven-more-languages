@@ -20,6 +20,7 @@ Install the "elm" extension for VS Code for Elm language support.
 
     # starts a local server allowing you to browse your project in the browser
     > elm reactor
+    ```
 
 ## Docs
 [Elm packages](https://package.elm-lang.org/)   
