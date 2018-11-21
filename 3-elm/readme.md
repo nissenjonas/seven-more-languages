@@ -12,6 +12,8 @@ Install the "elm" extension for VS Code for Elm language support.
 
 ## Quick start
 
+### Elm binary
+
 ```powershell
 # Simply type "elm" for help
 > elm 
@@ -22,6 +24,19 @@ Install the "elm" extension for VS Code for Elm language support.
 # starts a local server allowing you to browse your project in the browser
 > elm reactor
 ```
+
+### Hello World!
+
+````elm
+-- Imports "text" function from the "Html" module.
+-- To import multiple functions use comma separator.
+-- To import everything from a module simply write (..).
+import Html exposing (text)
+
+-- Program entry point is always main
+main =
+  text "Hello World!"
+```` 
 
 ## Docs
 * [Elm website](https://elm-lang.org)
