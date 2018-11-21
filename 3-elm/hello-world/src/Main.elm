@@ -1,4 +1,3 @@
-import Browser
 import Html exposing (text)
 
 -- Program entry point
